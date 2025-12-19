@@ -971,3 +971,10 @@ body {
     font-size: 14px;
     color: #666;
 }
+.contact,
+.contact p,
+.contact span,
+.contact a,
+.contact li {
+    color: #ffffff;
+}
