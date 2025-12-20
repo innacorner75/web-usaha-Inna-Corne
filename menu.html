@@ -44,10 +44,15 @@
       <p>Jus Jeruk</p>
     </div>
   </div>
+<section class="menu-header">
+    <span class="badge-menu">MENU KAMI</span>
+    <h2>Pilihan Menu <span>Lezat</span></h2>
+    <p>
+        Temukan berbagai hidangan istimewa yang kami siapkan
+        dengan penuh cinta untuk memanjakan lidah Anda
+    </p>
 </section>
 
-    <p>Pilih Menu Favorit Anda</p>
-</section>
 
 <section class="menu-grid">
 
@@ -60,27 +65,220 @@ function pesanWA(nama, harga){
 }
 </script>
 
-<div class="menu-item"><img src="gambar/gambar_1.jpg"><h3>Puding Salad</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Salad','10.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_2.jpg"><h3>Puding Silky</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Silky','10.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_3.jpg"><h3>Puding Silverqueen</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Silverqueen','10.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_4.jpg"><h3>Puding Regal</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Regal','10.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_5.jpg"><h3>Puding Hias</h3><span>Rp 150.000-300.000</span><button onclick="pesanWA('Puding Hias','150.000-300.000')" class="btn-wa">Pesan WA</button></div>
-
-<div class="menu-item"><img src="gambar/gambar_6.jpg"><h3>Dimsum Goreng</h3><span>Rp 30.000</span><button onclick="pesanWA('Dimsum Goreng','30.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_7.jpg"><h3>Dimsum Kukus</h3><span>Rp 30.000</span><button onclick="pesanWA('Dimsum Kukus','30.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_8.jpg"><h3>Nasi Goreng Ayam</h3><span>Rp 25.000</span><button onclick="pesanWA('Nasi Goreng Ayam','25.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_9.jpg"><h3>Nasi Goreng Telur</h3><span>Rp 17.000</span><button onclick="pesanWA('Nasi Goreng Telur','17.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_10.jpg"><h3>1 Ekor Ayam Aroma</h3><span>Rp 120.000</span><button onclick="pesanWA('1 Ekor Ayam Aroma','120.000')" class="btn-wa">Pesan WA</button></div>
-
-<div class="menu-item"><img src="gambar/gambar_18.jpg"><h3>Es Teh</h3><span>Rp 5.000</span><button onclick="pesanWA('Es Teh','5.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_22.jpg"><h3>Puding Sutra</h3><span>Rp 100.000</span><button onclick="pesanWA('Puding Sutra','100.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_11.jpg"><h3>Salad Buah Sedang</h3><span>Rp 50.000</span><button onclick="pesanWA('Salad Buah Sedang','50.000')" class="btn-wa">Pesan WA</button></div>
-<div class="menu-item"><img src="gambar/gambar_12.jpg"><h3>Salad Buah Besar</h3><span>Rp 100.000</span><button onclick="pesanWA('Salad Buah Besar','100.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Dessert</span>
+        <img src="gambar/gambar_1.jpg" alt="Puding Salad">
+    </div>
+    <div class="menu-body">
+        <h3>Puding Salad</h3>
+        <p class="desc">Puding segar dengan topping buah pilihan</p>
+        <div class="menu-footer">
+            <span class="price">Rp 10.000</span>
+            <button onclick="pesanWA('Puding Salad','10.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
 </div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Dessert</span>
+        <img src="gambar/gambar_2.jpg" alt="Puding Silky">
+    </div>
+    <div class="menu-body">
+        <h3>Puding Silky</h3>
+        <p class="desc">Tekstur lembut silky smooth</p>
+        <div class="menu-footer">
+            <span class="price">Rp 10.000</span>
+            <button onclick="pesanWA('Puding Silky','10.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Dessert</span>
+        <img src="gambar/gambar_3.jpg" alt="Puding Silverqueen">
+    </div>
+    <div class="menu-body">
+        <h3>Puding Silverqueen</h3>
+        <p class="desc">Puding cokelat dengan topping Silverqueen</p>
+        <div class="menu-footer">
+            <span class="price">Rp 10.000</span>
+            <button onclick="pesanWA('Puding Silverqueen','10.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Dessert</span>
+        <img src="gambar/gambar_4.jpg" alt="Puding Regal">
+    </div>
+    <div class="menu-body">
+        <h3>Puding Regal</h3>
+        <p class="desc">Puding creamy dengan biskuit regal</p>
+        <div class="menu-footer">
+            <span class="price">Rp 10.000</span>
+            <button onclick="pesanWA('Puding Regal','10.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Custom</span>
+        <img src="gambar/gambar_5.jpg" alt="Puding Hias">
+    </div>
+    <div class="menu-body">
+        <h3>Puding Hias</h3>
+        <p class="desc">Puding hias untuk acara spesial</p>
+        <div class="menu-footer">
+            <span class="price">Rp 150.000–300.000</span>
+            <button onclick="pesanWA('Puding Hias','150.000-300.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Food</span>
+        <img src="gambar/gambar_6.jpg" alt="Dimsum Goreng">
+    </div>
+    <div class="menu-body">
+        <h3>Dimsum Goreng</h3>
+        <p class="desc">Dimsum goreng renyah dan gurih</p>
+        <div class="menu-footer">
+            <span class="price">Rp 30.000</span>
+            <button onclick="pesanWA('Dimsum Goreng','30.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Food</span>
+        <img src="gambar/gambar_7.jpg" alt="Dimsum Kukus">
+    </div>
+    <div class="menu-body">
+        <h3>Dimsum Kukus</h3>
+        <p class="desc">Dimsum kukus lembut dan nikmat</p>
+        <div class="menu-footer">
+            <span class="price">Rp 30.000</span>
+            <button onclick="pesanWA('Dimsum Kukus','30.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Food</span>
+        <img src="gambar/gambar_8.jpg" alt="Nasi Goreng Ayam">
+    </div>
+    <div class="menu-body">
+        <h3>Nasi Goreng Ayam</h3>
+        <p class="desc">Nasi goreng ayam spesial</p>
+        <div class="menu-footer">
+            <span class="price">Rp 25.000</span>
+            <button onclick="pesanWA('Nasi Goreng Ayam','25.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Food</span>
+        <img src="gambar/gambar_9.jpg" alt="Nasi Goreng Telur">
+    </div>
+    <div class="menu-body">
+        <h3>Nasi Goreng Telur</h3>
+        <p class="desc">Nasi goreng telur sederhana</p>
+        <div class="menu-footer">
+            <span class="price">Rp 17.000</span>
+            <button onclick="pesanWA('Nasi Goreng Telur','17.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Food</span>
+        <img src="gambar/gambar_10.jpg" alt="Ayam Aroma">
+    </div>
+    <div class="menu-body">
+        <h3>Ayam Aroma (1 Ekor)</h3>
+        <p class="desc">Ayam utuh dengan bumbu aroma khas</p>
+        <div class="menu-footer">
+            <span class="price">Rp 120.000</span>
+            <button onclick="pesanWA('1 Ekor Ayam Aroma','120.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Drink</span>
+        <img src="gambar/gambar_18.jpg" alt="Es Teh">
+    </div>
+    <div class="menu-body">
+        <h3>Es Teh</h3>
+        <p class="desc">Minuman segar pelepas dahaga</p>
+        <div class="menu-footer">
+            <span class="price">Rp 5.000</span>
+            <button onclick="pesanWA('Es Teh','5.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Dessert</span>
+        <img src="gambar/gambar_22.jpg" alt="Puding Sutra">
+    </div>
+    <div class="menu-body">
+        <h3>Puding Sutra</h3>
+        <p class="desc">Puding premium tekstur sutra</p>
+        <div class="menu-footer">
+            <span class="price">Rp 100.000</span>
+            <button onclick="pesanWA('Puding Sutra','100.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Fruit</span>
+        <img src="gambar/gambar_11.jpg" alt="Salad Buah Sedang">
+    </div>
+    <div class="menu-body">
+        <h3>Salad Buah Sedang</h3>
+        <p class="desc">Salad buah segar ukuran sedang</p>
+        <div class="menu-footer">
+            <span class="price">Rp 50.000</span>
+            <button onclick="pesanWA('Salad Buah Sedang','50.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <div class="menu-thumb">
+        <span class="badge">Fruit</span>
+        <img src="gambar/gambar_12.jpg" alt="Salad Buah Besar">
+    </div>
+    <div class="menu-body">
+        <h3>Salad Buah Besar</h3>
+        <p class="desc">Salad buah segar ukuran besar</p>
+        <div class="menu-footer">
+            <span class="price">Rp 100.000</span>
+            <button onclick="pesanWA('Salad Buah Besar','100.000')" class="btn-wa">Pesan</button>
+        </div>
+    </div>
+</div>
+
 
 </section>
 
-<footer class="footer">© 2025 KLP 6 X Inna Corner</footer>
+<footer class="footer">© 2025 Puding Manis</footer>
 
 </body>
 </html>
