@@ -969,7 +969,7 @@ body {
 
 .profile p {
     font-size: 14px;
-    color: #fdf9f9;
+    color: #ff8c00;
 }
 .menu-header {
     text-align: center;
@@ -1292,3 +1292,4 @@ body {
     top: 0;
     z-index: 999;       /* pastikan di atas konten */
 }
+
