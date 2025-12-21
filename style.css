@@ -969,12 +969,12 @@ body {
 
 .profile p {
     font-size: 14px;
-    color: #ff8c00;
+    color:  #000000;
 }
 .menu-header {
     text-align: center;
     padding: 50px 20px 30px;
-    background: #fff6ec;
+    background: hsl(32, 48%, 85%);
 }
 
 .menu-header .badge-menu {
@@ -1292,4 +1292,14 @@ body {
     top: 0;
     z-index: 999;       /* pastikan di atas konten */
 }
+/* Hanya menargetkan blok location-item */
+.location-item {
+    color: #ffffff;
+}
 
+/* Pastikan semua teks di dalamnya ikut putih */
+.location-item p,
+.location-item strong,
+.location-item span {
+    color: #ffffff;
+}
